@@ -1,0 +1,23 @@
+.subHeader__wrapper {
+  padding: 17px 0;
+  .subHeader__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e7426a;
+        border-radius: 50%;
+        padding: 3px 4px;
+        color: #fff;
+      }
+    }
+  }
+}

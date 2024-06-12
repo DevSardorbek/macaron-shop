@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  border: none;
+}
+.container {
+  width: 1230px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

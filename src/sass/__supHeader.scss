@@ -1,0 +1,37 @@
+.supHeader__wrapper {
+  background-color: #f7ebe5;
+  padding: 12px 0;
+  .supHeader__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .supHeader__section-links {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      a {
+        font-family: Proxima Nova;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.05px;
+        text-align: left;
+        color: #000000c9;
+      }
+    }
+    .supHeader__section-info {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      span {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      article {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+    }
+  }
+}
